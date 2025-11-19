@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Employee Directory",
+    "id": "adb695e9-114b-4847-9117-59fb2714e28b",
+    "version": "1.1.2.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Gavin Crenshaw",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All" 
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "Searchable employee directory"
+      },
+      "longDescription": {
+        "default": "Power automate pulls from the Everyone group in Entra to create a sharepoint list that is used as the database for this app to search for employees and show their location"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-directory Feature",
+        "description": "The feature that activates elements of the list-directory solution.",
+        "id": "022aba5e-e57d-4573-be20-9c4a5cffc26c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-directory.sppkg"
+  }
+}
