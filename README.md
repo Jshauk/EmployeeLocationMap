@@ -33,8 +33,8 @@ To generate the initial data set, the `GenerateEmployeeList.zip` flow can be imp
    - Each cubicle, desk, or office must have its `id` attribute set to match the user's `office` attribute in Entra ID.
    - For example, a seat ID of `B10` in the SVG must correspond to a user's `office` value of `B10` in Entra or AD.
 
-   ![Example of Svg map](/doc/svg example.png)
-   ![inkscape svg doc](/doc/svg example 2.png)
+   ![Example of Svg map](https://github.com/Jshauk/EmployeeLocationMap/blob/main/doc/svg%20example.png)
+   ![inkscape svg doc](https://github.com/Jshauk/EmployeeLocationMap/blob/main/doc/svg%20example%202.png)
 
 3. This project is designed to store and load SVG maps from a SharePoint site. Storing maps on SharePoint allows updates to the floor plan without needing to repackage the SPFx solution.
 
